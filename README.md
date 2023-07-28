@@ -1,6 +1,6 @@
 # WaterMask
 
-This repo is the official implementation of "WaterMask: Instance Segmentation for Underwater Imagery". By Shijie Lian1, Hua Li1, Runmin Cong, Suqi Li, Wei Zhang, Sam Kwong, and has been accepted by ICCV2023! 🎉🎉🎉
+This repo is the official implementation of "WaterMask: Instance Segmentation for Underwater Imagery". By Shijie Lian, Hua Li, Runmin Cong, Suqi Li, Wei Zhang, Sam Kwong, and has been accepted by ICCV2023! 🎉🎉🎉
 
 ### Requirements
 * Python 3.6+
