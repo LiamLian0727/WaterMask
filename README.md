@@ -20,7 +20,7 @@ and you need use `pip install -v -e .` to install mmdetection
       │   │   ├── ......
       │   ├── val
 
-you can get our UIIS dataset in Baidu Netdisk[] or Google Drive[] (We'll publish our dataset shortly)
+you can get our UIIS dataset in [Baidu Netdisk]() or [Google Drive]() (We'll publish our dataset shortly)
 
 ### Training
 `python tools/train.py configs/_our_/water_r50_fpn_1x.py --work-dir you_dir_to_save_logs_and_models`
