@@ -46,3 +46,6 @@ If you find our repo useful for your research, please cite us:
 
 ### License
 This project is released under the [Apache 2.0 license](LICENSE).
+
+### Acknowledgement
+This software repository is implemented based on the [MMDetection](https://github.com/open-mmlab/mmdetection/tree/v2.25.1) framework. Thanks to them for their excellent work.
