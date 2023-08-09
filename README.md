@@ -43,3 +43,6 @@ If you find our repo useful for your research, please cite us:
     year={2023}
 }
 ```
+
+## License
+This project is released under the [Apache 2.0 license](LICENSE).
