@@ -4,8 +4,10 @@ This repo is the official implementation of "[WaterMask: Instance Segmentation f
 
 ### :rocket: Highlights:
 - **UIIS dataset**: We construct the first general underwater image instance segmentation(UIIS) dataset containing 4,628 images for 7 categories with pixel-level annotations for underwater instance segmentation task.
+  
   ![dataset img](figs/dataset1.png)
 - **SOTA performance**: We propose the first underwater instance segmentation model, WaterMask, as far as we know, which achieves good performance in qualitative and quantitative comparisons with natural image instance segmentation SOTA methods.
+  
   ![framework_img](figs/framework.png)
 
 ### Requirements
