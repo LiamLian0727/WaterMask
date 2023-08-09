@@ -2,6 +2,12 @@
 
 This repo is the official implementation of "[WaterMask: Instance Segmentation for Underwater Imagery]()". By Shijie Lian, Hua Li, Runmin Cong, Suqi Li, Wei Zhang, Sam Kwong, and has been accepted by ICCV2023! 🎉🎉🎉
 
+### :rocket: Highlights:
+- **UIIS dataset**: We construct the first general underwater image in- stance segmentation(UIIS) dataset containing 4,628 images for 7 categories with pixel-level annotations for underwater instance segmentation task.
+  ![dataset img](figs/dataset1.png)
+- **SOTA performance**: We propose the first underwater instance segmentation model known to date, WaterMask, which achieves good performance in qualitative and quantitative comparisons with natural image instance segmentation SOTA methods.
+  ![framework_img](figs/framework.png)
+
 ### Requirements
 * Python 3.6+
 * Pytorch 1.3+
@@ -20,7 +26,18 @@ and you need use `pip install -v -e .` to install mmdetection
       │   │   ├── ......
       │   ├── val
 
-you can get our UIIS dataset in [Baidu Disk](https://pan.baidu.com/s/1owt1KZTnxzpSBiXxULtvCg)(pwd:fiuk)or [Google Drive]()
+you can get our UIIS dataset in [Baidu Disk](https://pan.baidu.com/s/1owt1KZTnxzpSBiXxULtvCg) (pwd:fiuk) or [Google Drive](https://drive.google.com/file/d/1MwGvsr2kJgKBGbU3zoZlXiqSSiP1ysGR/view?usp=sharing)
 
 ### Training
 `python tools/train.py configs/_our_/water_r50_fpn_1x.py --work-dir you_dir_to_save_logs_and_models`
+
+## Citation
+If you find our repo useful for your research, please cite us:
+```
+@inproceedings{lian2023watermask,
+    title={WaterMask: Instance Segmentation for Underwater Imagery},
+    author={Shijie Lian, Hua Li, Runmin Cong, Suqi Li, Wei Zhang, Sam Kwong},
+    booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+    year={2023}
+}
+```
