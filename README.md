@@ -36,11 +36,13 @@ you can get our UIIS dataset in [Baidu Disk](https://pan.baidu.com/s/1owt1KZTnxz
 ### Citation
 If you find our repo useful for your research, please cite us:
 ```
-@inproceedings{lian2023watermask,
-    title={WaterMask: Instance Segmentation for Underwater Imagery},
-    author={Shijie Lian, Hua Li, Runmin Cong, Suqi Li, Wei Zhang, Sam Kwong},
-    booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-    year={2023}
+@InProceedings{Lian_2023_ICCV,
+    author    = {Lian, Shijie and Li, Hua and Cong, Runmin and Li, Suqi and Zhang, Wei and Kwong, Sam},
+    title     = {WaterMask: Instance Segmentation for Underwater Imagery},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {1305-1315}
 }
 ```
 
