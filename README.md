@@ -30,6 +30,16 @@ and you need use `pip install -v -e .` to install mmdetection.
 
 you can get our UIIS dataset in [Baidu Disk](https://pan.baidu.com/s/1owt1KZTnxzpSBiXxULtvCg?pwd=fiuk) (pwd:fiuk) or [Google Drive](https://drive.google.com/file/d/1MwGvsr2kJgKBGbU3zoZlXiqSSiP1ysGR/view?usp=sharing)
 
+### Main Results
+ We provide some results on **UIIS dataset** with pretrained models. These model are trained on an NVIDIA A5000 GPU. Note that all models and logs are available at [Baidu Netdisk](https://pan.baidu.com/s/1ZRgpcnaflNOmU_Zgfhv1mA?pwd=vhow) and google drive link is coming soon too!.
+
+| model    |Schedule    | mAP        | AP50      |AP75      |   config |   download |
+|:--------:|:----------:|:----------:|:---------:|:--------:|:--------:|:-------------:|
+| WaterMask R101-FPN| 1x     | 25.6   | 41.7 |27.9 | [config](configs/_our_/water_r101_fpn_1x.py)  |   [log](https://pan.baidu.com/s/18feemQZP5wQMrmzRUmFy0g?pwd=j9pv) / [pth](https://pan.baidu.com/s/1EXjZAHrLbB9-mwIA6MeIbA?pwd=f6vd)
+| WaterMask R50-FPN | 3x     | 26.4   | 43.6 |28.8   | [config](configs/_our_/water_r50_fpn_ms3x.py)   |   [log](https://pan.baidu.com/s/16_CQjHjeoooQEYasGnadWA?pwd=m4p5) / [pth](https://pan.baidu.com/s/1sNndq8LU4OtQXjpHcGNepg?pwd=3alo)
+| WaterMask R101-FPN | 3x     | 27.2   | 43.7 |29.3  | [config](configs/_our_/water_r101_fpn_ms3x.py)   |   [log](https://pan.baidu.com/s/1JHxr1ybDjZ_c-olH7ugCFA?pwd=dgtp) / [pth](https://pan.baidu.com/s/1ciVAmXnfSQCckUufUd_wVA?pwd=7fzb)
+| Cascade WaterMask R101-FPN| 3x| 27.1 | 42.9 |30.4  | [config](https://pan.baidu.com/s/1UW50jPH9nSeLPV5MjiKwSw?pwd=ouho)|[log](https://pan.baidu.com/s/1J3KkYkTQT62BMdrdYkH7-g?pwd=havk) / [pth](https://pan.baidu.com/s/12AE3oo09pPpAiW2PiztVhg?pwd=8nm2)
+
 ### Training
 `python tools/train.py configs/_our_/water_r50_fpn_1x.py --work-dir you_dir_to_save_logs_and_models`
 
