@@ -1,5 +1,5 @@
 # WaterMask
-![Static Badge](https://img.shields.io/badge/unique_visitors-64-red)
+![Static Badge](https://img.shields.io/badge/recent visitors-304-red)
 ![issues](https://img.shields.io/github/issues/LiamLian0727/WaterMask)
 ![forks](https://img.shields.io/github/forks/LiamLian0727/WaterMask)
 ![stars](https://img.shields.io/github/stars/LiamLian0727/WaterMask)
