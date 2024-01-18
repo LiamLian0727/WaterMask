@@ -18,7 +18,7 @@ This repo is the official implementation of "[WaterMask: Instance Segmentation f
 ### Requirements
 * Python 3.6+
 * Pytorch 1.3+
-* mmcv-full>=1.3.17, \<1.6.0 (we use mmcv 1.5.3 and [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.25.1) 2.25.1 in code)
+* mmcv-full>=1.3.17, \<1.6.0 (we use [mmcv]{https://github.com/open-mmlab/mmcv/tree/v1.5.3} 1.5.3 and [mmdetection](https://github.com/open-mmlab/mmdetection/tree/v2.25.1) 2.25.1 in code)
 
 and you need use `pip install -v -e .` to install mmdetection.
 
