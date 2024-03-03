@@ -47,9 +47,14 @@ you can get our UIIS dataset in [Baidu Disk](https://pan.baidu.com/s/1owt1KZTnxz
 
 ### Training
 `python tools/train.py configs/_our_/water_r50_fpn_1x.py --work-dir you_dir_to_save_logs_and_models`
+or
+`bash tools/dist_train.sh configs/_our_/water_r50_fpn_1x.py NUM_GPUS --work-dir you_dir_to_save_logs_and_models`
 
 ### Test
 `python tools/test.py configs/_our_/water_r50_fpn_1x.py model_checkpoint_path --eval segm`
+or
+`bash tools/dist_test.sh configs/_our_/water_r50_fpn_1x.py model_checkpoint_path NUM_GPUS --eval segm`
+
 
 ### Citation
 If you find our repo useful for your research, please cite us:
