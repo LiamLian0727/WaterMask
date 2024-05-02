@@ -1,8 +1,7 @@
 # WaterMask
-![Static Badge](https://img.shields.io/badge/recent_visitors-201-red)
 ![issues](https://img.shields.io/github/issues/LiamLian0727/WaterMask)
-![forks](https://img.shields.io/github/forks/LiamLian0727/WaterMask)
-![stars](https://img.shields.io/github/stars/LiamLian0727/WaterMask)
+![forks](https://img.shields.io/github/forks/LiamLian0727/WaterMask?style=flat)
+![stars](https://img.shields.io/github/stars/LiamLian0727/WaterMask?style=flat)
 ![license](https://img.shields.io/github/license/LiamLian0727/WaterMask)
 
 This repo is the official implementation of "[WaterMask: Instance Segmentation for Underwater Imagery](https://openaccess.thecvf.com/content/ICCV2023/html/Lian_WaterMask_Instance_Segmentation_for_Underwater_Imagery_ICCV_2023_paper.html)". By Shijie Lian, Hua Li, Runmin Cong, Suqi Li, Wei Zhang, Sam Kwong, and has been accepted by ICCV2023! 🎉🎉🎉
