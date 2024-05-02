@@ -1,4 +1,5 @@
 # WaterMask
+![watchers](https://img.shields.io/github/watchers/LiamLian0727/WaterMask?style=flat)
 ![issues](https://img.shields.io/github/issues/LiamLian0727/WaterMask)
 ![forks](https://img.shields.io/github/forks/LiamLian0727/WaterMask?style=flat)
 ![stars](https://img.shields.io/github/stars/LiamLian0727/WaterMask?style=flat)
