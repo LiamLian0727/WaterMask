@@ -22,6 +22,7 @@ This repo is the official implementation of "[WaterMask: Instance Segmentation f
 and you need use `pip install -v -e .` to install mmdetection.
 
 ### Datasets
+Please create a data folder in your working directory and put the UIIS dataset in it for training or testing. UIIS is divided into two parts, with 3937 images for training and 691 images for testing.
     data
       ├── UDW
       |   ├── annotations
@@ -30,7 +31,7 @@ and you need use `pip install -v -e .` to install mmdetection.
       │   ├── train
       │   │   ├── L_1.jpg
       │   │   ├── ......
-      │   ├── val
+      │   ├── ......
 
 you can get our UIIS dataset in [Baidu Disk](https://pan.baidu.com/s/1owt1KZTnxzpSBiXxULtvCg?pwd=fiuk) (pwd:fiuk) or [Google Drive](https://drive.google.com/file/d/1MwGvsr2kJgKBGbU3zoZlXiqSSiP1ysGR/view?usp=sharing)
 
