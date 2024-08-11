@@ -47,18 +47,26 @@ you can get our UIIS dataset in [Baidu Disk](https://pan.baidu.com/s/1owt1KZTnxz
 | Cascade WaterMask R101-FPN| 3x| 27.1 | 42.9 |30.4  | [config](https://pan.baidu.com/s/1UW50jPH9nSeLPV5MjiKwSw?pwd=ouho)|[log](https://pan.baidu.com/s/1J3KkYkTQT62BMdrdYkH7-g?pwd=havk) / [pth](https://pan.baidu.com/s/12AE3oo09pPpAiW2PiztVhg?pwd=8nm2)
 
 ### Training
-`python tools/train.py configs/_our_/water_r50_fpn_1x.py --work-dir you_dir_to_save_logs_and_models`
+```
+python tools/train.py configs/_our_/water_r50_fpn_1x.py --work-dir you_dir_to_save_logs_and_models
+```
 
 or
 
-`bash tools/dist_train.sh configs/_our_/water_r50_fpn_1x.py NUM_GPUS --work-dir you_dir_to_save_logs_and_models`
+```
+bash tools/dist_train.sh configs/_our_/water_r50_fpn_1x.py NUM_GPUS --work-dir you_dir_to_save_logs_and_models
+```
 
 ### Test
-`python tools/test.py configs/_our_/water_r50_fpn_1x.py model_checkpoint_path --eval segm`
+```
+python tools/test.py configs/_our_/water_r50_fpn_1x.py model_checkpoint_path --eval segm
+```
 
 or
 
-`bash tools/dist_test.sh configs/_our_/water_r50_fpn_1x.py model_checkpoint_path NUM_GPUS --eval segm`
+```
+bash tools/dist_test.sh configs/_our_/water_r50_fpn_1x.py model_checkpoint_path NUM_GPUS --eval segm
+```
 
 
 ### Citation
