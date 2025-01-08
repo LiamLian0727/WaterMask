@@ -37,7 +37,7 @@ Please create a data folder in your working directory and put the UIIS dataset i
 you can get our UIIS dataset in [Baidu Disk](https://pan.baidu.com/s/1owt1KZTnxzpSBiXxULtvCg?pwd=fiuk) (pwd:fiuk) or [Google Drive](https://drive.google.com/file/d/1MwGvsr2kJgKBGbU3zoZlXiqSSiP1ysGR/view?usp=sharing)
 
 ### Main Results
- We provide some results on **UIIS dataset** with pretrained models. These model are trained on an NVIDIA A5000 GPU. Note that all models and logs are available at [Baidu Netdisk](https://pan.baidu.com/s/1ZRgpcnaflNOmU_Zgfhv1mA?pwd=vhow) and google drive link is coming soon too!.
+ We provide some results on **UIIS dataset** with pretrained models. These model are trained on an NVIDIA A5000 GPU. Note that all models and logs are available at [Baidu Netdisk](https://pan.baidu.com/s/1ZRgpcnaflNOmU_Zgfhv1mA?pwd=vhow) and [Google Drive](https://drive.google.com/file/d/1SlgkcOzYjKku15ldezNRe4O4OsqdprIB/view?usp=drive_link) link.
 
 | model    |Schedule    | mAP        | AP50      |AP75      |   config |   download |
 |:--------:|:----------:|:----------:|:---------:|:--------:|:--------:|:-------------:|
