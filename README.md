@@ -6,6 +6,16 @@
 
 This repo is the official implementation of "[WaterMask: Instance Segmentation for Underwater Imagery](https://openaccess.thecvf.com/content/ICCV2023/html/Lian_WaterMask_Instance_Segmentation_for_Underwater_Imagery_ICCV_2023_paper.html)". By Shijie Lian, Hua Li, Runmin Cong, Suqi Li, Wei Zhang, Sam Kwong, and has been accepted by ICCV2023! 🎉🎉🎉
 
+### :speech_balloon: Updates：UIIS10K
+
+[**UIIS10K**](https://github.com/LiamLian0727/UIIS10K/blob/main/README.md) upgrades the original UIIS dataset with **10 048 underwater images** annotated at **pixel level** for **10 object classes** (fish · reptiles · artiodactyla · mollusks · corals · plants · garbage · ruins · divers · robots).
+
+- **Largest underwater benchmark** – more images and masks than any existing general underwater instance segmentation dataset.  
+- **Scene diversity** – shallow & deep water, clear & turbid conditions, multiple resolutions, complex backgrounds, heavy occlusions.  
+- **Crowded scenes** – 23 % of images contain ≥ 5 instances.  (up to 80+ per image).  
+- **Multi-task ready** – pixel masks + bounding boxes support instance segmentation, object detection, and semantic segmentation.
+
+
 ### :rocket: Highlights:
 - **UIIS dataset**: We construct the first general Underwater Image Instance Segmentation (UIIS) dataset containing 4,628 images for 7 categories with pixel-level annotations for underwater instance segmentation task.
   
@@ -79,6 +89,13 @@ If you find our repo useful for your research, please cite us:
     month     = {October},
     year      = {2023},
     pages     = {1305-1315}
+}
+
+@article{UIIS10K_Dataset_2025,
+    author    = {Hua Li, Shijie Lian, Zhiyuan Li, Runmin Cong, Sam Kwong},
+    title     = {UWSAM: Segment Anything Model Guided Underwater Instance Segmentation and A Large-scale Benchmark Dataset},
+    year      = {2025},
+    journal   = {arXiv preprint arXiv:2505.15581},
 }
 ```
 
