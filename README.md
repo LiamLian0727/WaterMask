@@ -4,8 +4,6 @@
 ![stars](https://img.shields.io/github/stars/LiamLian0727/WaterMask?style=flat)
 ![license](https://img.shields.io/github/license/LiamLian0727/WaterMask)
 
-This repo is the official implementation of "[WaterMask: Instance Segmentation for Underwater Imagery](https://openaccess.thecvf.com/content/ICCV2023/html/Lian_WaterMask_Instance_Segmentation_for_Underwater_Imagery_ICCV_2023_paper.html)". By Shijie Lian, Hua Li, Runmin Cong, Suqi Li, Wei Zhang, Sam Kwong, and has been accepted by ICCV2023! 🎉🎉🎉
-
 ---
 
 ### :speech_balloon: Updates：UIIS10K
@@ -18,6 +16,8 @@ This repo is the official implementation of "[WaterMask: Instance Segmentation f
 - **Multi-task ready** – pixel masks + bounding boxes support instance segmentation, object detection, and semantic segmentation.
 
 ---
+
+This repo is the official implementation of "[WaterMask: Instance Segmentation for Underwater Imagery](https://openaccess.thecvf.com/content/ICCV2023/html/Lian_WaterMask_Instance_Segmentation_for_Underwater_Imagery_ICCV_2023_paper.html)". By Shijie Lian, Hua Li, Runmin Cong, Suqi Li, Wei Zhang, Sam Kwong, and has been accepted by ICCV2023! 🎉🎉🎉
 
 ### :rocket: Highlights:
 - **UIIS dataset**: We construct the first general Underwater Image Instance Segmentation (UIIS) dataset containing 4,628 images for 7 categories with pixel-level annotations for underwater instance segmentation task.
