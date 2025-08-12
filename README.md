@@ -1,7 +1,7 @@
 # WaterMask
 ![issues](https://img.shields.io/github/issues/LiamLian0727/WaterMask)
 ![forks](https://img.shields.io/github/forks/LiamLian0727/WaterMask?style=flat)
-![stars](https://img.shields.io/github/stars/LiamLian0727/WaterMask?style=flat)
+![stars](https://img.shields.io/github/stars/LiamLian0727/WaterMask?style=flat&color=red)
 [![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-FFD21E)](https://huggingface.co/datasets/LiamLian0727/UIIS)
 ![license](https://img.shields.io/github/license/LiamLian0727/WaterMask)
 
