@@ -85,8 +85,8 @@ bash tools/dist_test.sh configs/_our_/water_r50_fpn_1x.py model_checkpoint_path 
 ### Citation
 If you find our repo useful for your research, please cite us:
 ```
-@InProceedings{Lian_2023_ICCV,
-    author    = {Lian, Shijie and Li, Hua and Cong, Runmin and Li, Suqi and Zhang, Wei and Kwong, Sam},
+@InProceedings{UIIS_Dataset_2023,
+    author    = {Shijie Lian, Hua Li, Runmin Cong, Suqi Li, Wei Zhang, Sam Kwong},
     title     = {WaterMask: Instance Segmentation for Underwater Imagery},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
     month     = {October},
@@ -95,8 +95,8 @@ If you find our repo useful for your research, please cite us:
 }
 
 @article{UIIS10K_Dataset_2025,
-    author    = {Hua Li, Shijie Lian, Zhiyuan Li, Runmin Cong, Sam Kwong},
-    title     = {UWSAM: Segment Anything Model Guided Underwater Instance Segmentation and A Large-scale Benchmark Dataset},
+    author    = {Hua Li, Shijie Lian, Zhiyuan Li, Runmin Cong, Chongyi Li},
+    title     = {Taming SAM for Underwater Instance Segmentation and Beyond},
     year      = {2025},
     journal   = {arXiv preprint arXiv:2505.15581},
 }
