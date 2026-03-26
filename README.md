@@ -15,7 +15,7 @@
 - Better compatibility with latest PyTorch versions (2.0+) and CUDA
 - Access to newer model architectures and training techniques
 
-The original MMDet 2.0 version is still available on the [main branch](https://github.com/LiamLian0727/WaterMask/tree/main).
+The original MMDet 2.0 version is still available on the [mmdet2 branch](https://github.com/LiamLian0727/WaterMask/tree/mmdet2).
 
 **[2025-07] UIIS10K**:
 
