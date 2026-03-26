@@ -9,7 +9,7 @@
 
 ### :speech_balloon: Updates
 
-**[2025-03] Upgrade to MMDetection 3.0+**: We have upgraded the code from MMDetection 2.0 to **MMDetection 3.0+**! The main reasons for this upgrade are:
+**[2026-03] Upgrade to MMDetection 3.0+**: We have upgraded the code from MMDetection 2.0 to **MMDetection 3.0+**! The main reasons for this upgrade are:
 - MMDet 2.0 is outdated and no longer actively maintained
 - MMDet 3.0 provides better performance, cleaner APIs, and improved modularity
 - Better compatibility with latest PyTorch versions (2.0+) and CUDA
@@ -17,7 +17,7 @@
 
 The original MMDet 2.0 version is still available on the [main branch](https://github.com/LiamLian0727/WaterMask/tree/main).
 
-### :speech_balloon: Updates：UIIS10K
+**[2025-07] UIIS10K**:
 
 [**UIIS10K**](https://github.com/LiamLian0727/UIIS10K/blob/main/README.md) upgrades the original UIIS dataset with **10 048 underwater images** annotated at **pixel level** for **10 object classes** (fish · reptiles · artiodactyla · mollusks · corals · plants · garbage · ruins · divers · robots).
 
